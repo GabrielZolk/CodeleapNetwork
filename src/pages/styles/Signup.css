@@ -9,7 +9,6 @@
 
 .signup-modal {
     width: 500px;
-    height: 205px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 16px;
@@ -39,7 +38,7 @@
 }
 
 .signup-content form input {
-    width: 452px;
+    width: 100%;
     height: 32px;
     background: #FFFFFF;
     border: 1px solid #777777;
@@ -66,4 +65,21 @@
     background-color: #cccccc !important;
     color: #999999 !important;
     cursor: not-allowed;
+}
+
+@media (max-width: 500px) {
+    .signup-content h2 {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .signup-content p {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .signup-content form {
+        text-align: center;
+    }
+    .signup-content form input {
+        font-size: .6rem;
+    }
 }
