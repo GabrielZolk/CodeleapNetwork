@@ -1,0 +1,50 @@
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #8082F6, #40C0CB);
+    height: 70px;
+    padding: 0 24px 0 24px;
+    color: #FFFFFF;
+}
+
+.post-container {
+    margin: 24px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.icons .edit {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icons .trash {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.post-info {
+    margin: 24px;
+    display: flex;
+    color: #777777;
+    justify-content: space-between;
+}
+
+.post-message {
+    margin: 24px;
+}
+
+@media (max-width: 470px) {
+    .post-info {
+        font-size: .8rem;
+    }
+
+    .post-message {
+        font-size: .8rem;
+    }
+}
+
+
